@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+nav > a, nav > div > a{
+    text-decoration: none;
+    color: white;
+    margin-inline: 10px;
+}
+
+#books, #register{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+#books-div, #register-div{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px black;
+    margin-top: 30px;
+    background-color: white;
+}
+#books-heading, #register-div > h3{
+    margin: 20px 0 10px 0;
+}
+table{
+    border: 1px solid #ececec;
+    border-collapse: collapse;
+    color: #2c2c2c;
+}
+td, th{
+    padding: 10px;
+}
+td > a{
+    color: #220fbc;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#register-div{
+    width: 598px;
+}
+label{
+    margin: 10px 0 10px 0;
+    font-size: 15px;
+}
+input{
+    border: 1px solid #ececec;
+    padding: 5px;
+}
+
+button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
